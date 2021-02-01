@@ -20,12 +20,12 @@ function appendDriver (name) {
     return [...drivers, name];
   }
 
-function prependDriver(name) {
-    drivers.push(name);
+function prependDriver (name) {
+    return [name, ...drivers];
 }
 
 function removeLastDriver() {
-    drivers.push;
+    return drivers.slice(-1);
 }
 
 function removeFirstDriver() {
