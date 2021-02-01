@@ -1,1 +1,33 @@
-// Write your solution here!
+const drivers = ["Milo", "Otis", "Garfield"]
+
+function destructivelyAppendDriver(name) {
+    drivers.push(name);
+}
+
+function destructivelyPrependDriver(name) {
+    drivers.unshift(name);
+}
+
+function destructivelyRemoveLastDriver() {
+    drivers.pop();
+}
+
+function destructivelyRemoveFirstDriver(name) {
+    drivers.shift();
+}
+
+function appendDriver(name) {
+    const newDrivers = [name, ...drivers]
+}
+
+function prependDriver(name) {
+    drivers.push(name);
+}
+
+function removeLastDriver() {
+    drivers.push;
+}
+
+function removeFirstDriver() {
+    drivers.push;
+}
